@@ -1,0 +1,96 @@
+/* shared style  */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-size: 3.3rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.new {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+body {
+    background-color: #212121;
+
+}
+
+
+/* main  */
+
+header {
+    background-image: linear-gradient(rgba(75, 84, 88, 0.6), rgba(64, 71, 75, 0.6)), url(../images/nav-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 700px;
+
+
+}
+
+
+.flex {
+    display: flex;
+}
+
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.navbar ul li {
+    list-style: none;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #9c9999;
+}
+
+.right-nav-items {
+    gap: 25px;
+    margin: 30px;
+}
+
+.left-nav-items {
+    gap: 25px;
+    margin: 30px;
+
+}
+
+/* banner */
+.banner {
+    position: relative;
+}
+
+.banner-container {
+    color: #dadddd;
+    position: absolute;
+    flex-direction: column;
+    gap: 8px;
+    top: 9.3rem;
+    left: 9.3rem;
+}
