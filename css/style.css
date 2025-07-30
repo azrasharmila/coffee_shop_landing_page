@@ -97,6 +97,10 @@ ul li a {
 }
 
 /* story section styles  */
+.story{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 .section-title{
 
@@ -122,14 +126,19 @@ ul li a {
 .cafe, .about-us, .daily-deal, .why-us {
   flex-direction: column;
   align-items: center;
+  padding: 25px;
   
   
 }
 .paragraph{
+    
     padding-top: 15px;
     text-align: center;
+    font-size: 0.8rem;
+    
     
 }
+
 
 /* display section */
 
@@ -160,14 +169,11 @@ ul li a {
 .display-pic{
     width: 40%;
     height: 420px; 
-   
-   
-    
 
 }
 .discription-right{
     
-    color: rgb(166, 182, 182);
+    color:#9c9999;
     font-size: 1rem;
     
     
@@ -180,4 +186,76 @@ ul li a {
     color: rgb(132, 135, 137);
     border-radius: 5px;
 }
+.border-line{
+    border-bottom: 1px solid #9c9999;
+    
+}
+
+/* card section */
+.card-box{
+   margin-top: 100px;
+   margin-bottom: 100px;
+    padding: 20px 80px;
+    text-align: center;
+   
+}
+
+.card-title{
+    display: inline-block;
+    text-align: center;
+    border-bottom: 1px solid rgb(55, 54, 54) ;
+    padding-bottom: 10px;
+    color: #bebeb8;
+    
+    
+}
+.card-catagory{
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #686666;
+}
+.card-catagory > .color{
+    
+    color: #aca7a7;
+}
+/* .card-section{
+    align-items: center;
+    justify-content: space-around;
+    gap:4px;
+} */
+
+.card-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 12px; 
+    margin-top: 40px;
+    
+    
+}
+
+.product-card {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    color: #9c9999;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-card img{
+    margin-bottom: 15px;
+    
+    width: 100%;
+    height: 230px;
+    border-radius: 2px;
+    
+}
+.price{
+    font-size: .8rem;
+    font-weight: 900;
+    color: #4e4e38 ;
+}
+
 
